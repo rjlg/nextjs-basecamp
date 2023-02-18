@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "husky install"
+  },
+  "lint-staged": {
+    "package.json": "sort-package-json"
   },
   "dependencies": {
     "@next/font": "13.1.2",
@@ -20,10 +24,15 @@
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
   },
-  "packageManager": "yarn@3.4.1",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.4.4",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.2"
+  },
   "dependenciesMeta": {
     "next@13.1.2": {
       "unplugged": true
     }
-  }
+  },
+  "packageManager": "yarn@3.4.1"
 }
