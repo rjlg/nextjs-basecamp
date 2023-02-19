@@ -11,7 +11,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css,md}": "prettier --write",
-    "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
+    "src/**/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
     "package.json": "sort-package-json"
   },
   "dependencies": {
@@ -45,8 +45,11 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.4.4",
+    "autoprefixer": "^10.4.13",
     "husky": "^8.0.0",
-    "lint-staged": "^13.1.2"
+    "lint-staged": "^13.1.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6"
   },
   "dependenciesMeta": {
     "next@13.1.2": {
