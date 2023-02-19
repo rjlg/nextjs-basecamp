@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css,md}": "prettier --write",
@@ -44,8 +46,20 @@
     "typescript": "4.9.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
     "@commitlint/config-conventional": "^17.4.4",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-docs": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
     "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.2",
     "postcss": "^8.4.21",
