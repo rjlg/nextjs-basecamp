@@ -49,7 +49,7 @@ const Header = ({
       <div>
         {user ? (
           <>
-            <span className="welcome">
+            <span className="welcome text-xl">
               Welcome, <b>{user.name}</b>!
             </span>
             <Button size="small" onClick={onLogout} label="Log out" />
