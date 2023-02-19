@@ -34,13 +34,13 @@ const Button = ({
   label,
   onClick,
 }: ButtonProps) => {
-  const mode = primary
-    ? 'storybook-button--primary'
-    : 'storybook-button--secondary'
+  const primaryCx = 'bg-blue-600 dark:bg-red-600'
+  const secondaryCx = 'dark:bg-blue-500 bg-red-500'
+  const modeCx = primary ? primaryCx : secondaryCx
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(
+      className={['storybook-button', `storybook-button--${size}`, modeCx].join(
         ' ',
       )}
       onClick={onClick}

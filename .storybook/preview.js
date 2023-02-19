@@ -1,3 +1,4 @@
+import { themes } from '@storybook/theming'
 import '@/styles/globals.scss'
 
 export const parameters = {
@@ -7,5 +8,11 @@ export const parameters = {
       color: /(background|color)$/i,
       date: /Date$/,
     },
+  },
+  darkMode: {
+    current: 'dark',
+    classTarget: 'html',
+    darkClass: 'dark',
+    stylePreview: true,
   },
 }

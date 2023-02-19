@@ -73,6 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:18.2.0"],\
             ["sass", "npm:1.58.1"],\
             ["sass-loader", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:13.2.0"],\
+            ["storybook-dark-mode", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:2.0.6"],\
             ["style-loader", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:3.3.1"],\
             ["tailwindcss", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:3.2.6"],\
             ["tsconfig-paths-webpack-plugin", "npm:4.0.0"],\
@@ -6209,6 +6210,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["doctrine", "npm:3.0.0"],\
             ["lodash", "npm:4.17.21"],\
             ["regenerator-runtime", "npm:0.13.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@storybook/global", [\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/@storybook-global-npm-5.0.0-008a1e10b8-ede0ad35ec.zip/node_modules/@storybook/global/",\
+          "packageDependencies": [\
+            ["@storybook/global", "npm:5.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16595,6 +16605,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:18.2.0"],\
             ["sass", "npm:1.58.1"],\
             ["sass-loader", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:13.2.0"],\
+            ["storybook-dark-mode", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:2.0.6"],\
             ["style-loader", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:3.3.1"],\
             ["tailwindcss", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:3.2.6"],\
             ["tsconfig-paths-webpack-plugin", "npm:4.0.0"],\
@@ -19953,6 +19964,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/store2-npm-2.14.2-c286d27e4f-6f270fc5ba.zip/node_modules/store2/",\
           "packageDependencies": [\
             ["store2", "npm:2.14.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["storybook-dark-mode", [\
+        ["npm:2.0.6", {\
+          "packageLocation": "./.yarn/cache/storybook-dark-mode-npm-2.0.6-d3ea55d7b7-00660ed22c.zip/node_modules/storybook-dark-mode/",\
+          "packageDependencies": [\
+            ["storybook-dark-mode", "npm:2.0.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:2.0.6", {\
+          "packageLocation": "./.yarn/__virtual__/storybook-dark-mode-virtual-5fe2e2511f/0/cache/storybook-dark-mode-npm-2.0.6-d3ea55d7b7-00660ed22c.zip/node_modules/storybook-dark-mode/",\
+          "packageDependencies": [\
+            ["storybook-dark-mode", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:2.0.6"],\
+            ["@storybook/addons", "virtual:f8390a0b3ec00447f77793126a8baecf7def69b3db288240bf9860ea954ef20bdd907dea1bd2602c33d992a2d893d58b94ffe15975438c2cbfe942897eff1fae#npm:6.5.16"],\
+            ["@storybook/api", "virtual:f8390a0b3ec00447f77793126a8baecf7def69b3db288240bf9860ea954ef20bdd907dea1bd2602c33d992a2d893d58b94ffe15975438c2cbfe942897eff1fae#npm:6.5.16"],\
+            ["@storybook/components", "virtual:f8390a0b3ec00447f77793126a8baecf7def69b3db288240bf9860ea954ef20bdd907dea1bd2602c33d992a2d893d58b94ffe15975438c2cbfe942897eff1fae#npm:6.5.16"],\
+            ["@storybook/core-events", "npm:6.5.16"],\
+            ["@storybook/global", "npm:5.0.0"],\
+            ["@storybook/theming", "virtual:f8390a0b3ec00447f77793126a8baecf7def69b3db288240bf9860ea954ef20bdd907dea1bd2602c33d992a2d893d58b94ffe15975438c2cbfe942897eff1fae#npm:6.5.16"],\
+            ["@types/react", "npm:18.0.27"],\
+            ["@types/react-dom", "npm:18.0.10"],\
+            ["fast-deep-equal", "npm:3.1.3"],\
+            ["memoizerific", "npm:1.11.3"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:92b0ff123216999ee0d3a5f85224d50f606f3e198a46469385ada9ce3a7e952608101740e7e22102963b05004e9bf1208e6b08395010d2fe61de05f4669955af#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
