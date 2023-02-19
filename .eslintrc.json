@@ -1,7 +1,48 @@
 {
-  "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:eslint-comments/recommended",
+    "plugin:storybook/recommended",
+    "plugin:unicorn/recommended",
+    "next/core-web-vitals",
+    "next",
+    "prettier"
+  ],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "react/function-component-definition": [
+      2,
+      { "namedComponents": "arrow-function" }
+    ],
+    "react/require-default-props": [0],
+    "unicorn/filename-case": [
+      "error",
+      {
+        "cases": {
+          "camelCase": true,
+          "pascalCase": true
+        }
+      }
+    ],
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "allowList": {
+          "args": true,
+          "props": true,
+          "Props": true,
+          "ref": true,
+          "Src": true
+        }
+      }
+    ]
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
   }
 }
