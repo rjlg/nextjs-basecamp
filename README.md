@@ -42,4 +42,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - We are using Node version 18, this is the latest supported by Vercel.
 - Conventional Commits are enforced via Husky
 - Pre commit hook runs lint staged which runs:
-- sorts package json
+  - prettier
+  - sorts package json
